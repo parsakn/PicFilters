@@ -2,20 +2,18 @@
 
 #include "../include/bmp.hpp"
 #include "Filter.h"
+#include "ColorFilter.h"
+#include "GrayScale.h"
+#include "Invert.h"
 #include "manual.h"
+#include "Emboss.h"
+#include "Sharpen.h"
+#include "GBlur.h"
 
 int main() {
-
-    Filter myfilter(INPUTADDRESS,"outputtest.bmp",View{0,0,100,100});
-    myfilter.applyfilter();
+    Filter* filter1 = new GrayScale(INPUTADDRESS,"outputtest.bmp",View{0,0,356,356});
+    filter1->applyfilter();
     cout << "DONE." << endl;
-    /*
-    Bmp bmp;
-    read(bmp,"/home/parsa/CLionProjects/P6/A6-Sample-Picture.bmp");
-    bmp.data[0][0] = Pixel(0,255,0);
-    write(bmp, "test12345.bmp");
-    delete bmp.fileData;
-    */
     return 0;
 
 

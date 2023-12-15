@@ -15,9 +15,9 @@ protected:
     Bmp inputPicture;
     View view;
     string outputName;
-    vector<vector<uint8_t>> reds;
-    vector<vector<uint8_t>> blues;
-    vector<vector<uint8_t>> greens;
+    vector<vector<int>> reds;
+    vector<vector<int>> blues;
+    vector<vector<int>> greens;
 
 
     void initPicture(const string& address);
@@ -26,8 +26,8 @@ protected:
 
 public:
 
-Filter(const string& inputaddres,const string& outputname,View pictureview);
-virtual void applyfilter();
+Filter(string inputaddres, string outputname,View pictureview);
+virtual void applyfilter() = 0;
 
 };
 

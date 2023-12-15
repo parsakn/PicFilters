@@ -67,6 +67,48 @@ build CMakeFiles/P6.dir/src/Filter.cpp.o: CXX_COMPILER__P6_unscanned_Debug /home
   OBJECT_DIR = CMakeFiles/P6.dir
   OBJECT_FILE_DIR = CMakeFiles/P6.dir/src
 
+build CMakeFiles/P6.dir/src/ColorFilter.cpp.o: CXX_COMPILER__P6_unscanned_Debug /home/parsa/CLionProjects/P6/src/ColorFilter.cpp || cmake_object_order_depends_target_P6
+  DEP_FILE = CMakeFiles/P6.dir/src/ColorFilter.cpp.o.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/P6.dir
+  OBJECT_FILE_DIR = CMakeFiles/P6.dir/src
+
+build CMakeFiles/P6.dir/src/GrayScale.cpp.o: CXX_COMPILER__P6_unscanned_Debug /home/parsa/CLionProjects/P6/src/GrayScale.cpp || cmake_object_order_depends_target_P6
+  DEP_FILE = CMakeFiles/P6.dir/src/GrayScale.cpp.o.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/P6.dir
+  OBJECT_FILE_DIR = CMakeFiles/P6.dir/src
+
+build CMakeFiles/P6.dir/src/Invert.cpp.o: CXX_COMPILER__P6_unscanned_Debug /home/parsa/CLionProjects/P6/src/Invert.cpp || cmake_object_order_depends_target_P6
+  DEP_FILE = CMakeFiles/P6.dir/src/Invert.cpp.o.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/P6.dir
+  OBJECT_FILE_DIR = CMakeFiles/P6.dir/src
+
+build CMakeFiles/P6.dir/src/KernelFilter.cpp.o: CXX_COMPILER__P6_unscanned_Debug /home/parsa/CLionProjects/P6/src/KernelFilter.cpp || cmake_object_order_depends_target_P6
+  DEP_FILE = CMakeFiles/P6.dir/src/KernelFilter.cpp.o.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/P6.dir
+  OBJECT_FILE_DIR = CMakeFiles/P6.dir/src
+
+build CMakeFiles/P6.dir/src/Emboss.cpp.o: CXX_COMPILER__P6_unscanned_Debug /home/parsa/CLionProjects/P6/src/Emboss.cpp || cmake_object_order_depends_target_P6
+  DEP_FILE = CMakeFiles/P6.dir/src/Emboss.cpp.o.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/P6.dir
+  OBJECT_FILE_DIR = CMakeFiles/P6.dir/src
+
+build CMakeFiles/P6.dir/src/Sharpen.cpp.o: CXX_COMPILER__P6_unscanned_Debug /home/parsa/CLionProjects/P6/src/Sharpen.cpp || cmake_object_order_depends_target_P6
+  DEP_FILE = CMakeFiles/P6.dir/src/Sharpen.cpp.o.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/P6.dir
+  OBJECT_FILE_DIR = CMakeFiles/P6.dir/src
+
+build CMakeFiles/P6.dir/src/GBlur.cpp.o: CXX_COMPILER__P6_unscanned_Debug /home/parsa/CLionProjects/P6/src/GBlur.cpp || cmake_object_order_depends_target_P6
+  DEP_FILE = CMakeFiles/P6.dir/src/GBlur.cpp.o.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/P6.dir
+  OBJECT_FILE_DIR = CMakeFiles/P6.dir/src
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target P6
@@ -75,7 +117,7 @@ build CMakeFiles/P6.dir/src/Filter.cpp.o: CXX_COMPILER__P6_unscanned_Debug /home
 #############################################
 # Link the executable P6
 
-build P6: CXX_EXECUTABLE_LINKER__P6_Debug CMakeFiles/P6.dir/src/main.cpp.o CMakeFiles/P6.dir/src/bmp.cpp.o CMakeFiles/P6.dir/src/Filter.cpp.o
+build P6: CXX_EXECUTABLE_LINKER__P6_Debug CMakeFiles/P6.dir/src/main.cpp.o CMakeFiles/P6.dir/src/bmp.cpp.o CMakeFiles/P6.dir/src/Filter.cpp.o CMakeFiles/P6.dir/src/ColorFilter.cpp.o CMakeFiles/P6.dir/src/GrayScale.cpp.o CMakeFiles/P6.dir/src/Invert.cpp.o CMakeFiles/P6.dir/src/KernelFilter.cpp.o CMakeFiles/P6.dir/src/Emboss.cpp.o CMakeFiles/P6.dir/src/Sharpen.cpp.o CMakeFiles/P6.dir/src/GBlur.cpp.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/P6.dir
   POST_BUILD = :
